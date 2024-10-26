@@ -130,22 +130,21 @@ h2 {
     height: 200px;
 }
 
-/* Media query for smaller screens (e.g., mobile devices) */
+/* Responsive Design */
 @media (max-width: 768px) {
-    /* Adjust layout and font sizes for smaller screens */
     body {
-        font-size: 14px; /* Adjust font size as needed */
+        font-size: 14px;
     }
 
     header {
-        padding: 1em 0; /* Adjust padding as needed */
+        padding: 1em 0;
     }
 
     section {
-        padding: 1em; /* Adjust padding as needed */
+        padding: 1em;
     }
 
     .portfolio-grid {
-        grid-template-columns: 1fr; /* Display items in a single column */
+        grid-template-columns: 1fr;
     }
 }
