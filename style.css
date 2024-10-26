@@ -6,30 +6,36 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #1a1a1a; /* Dark background */
     line-height: 1.6;
 }
 
 /* Header styles */
 header {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 1.5em 0;
+    background-color: #000;
+    color: #00FF00; /* Neon green for gaming vibe */
+    padding: 2em 0;
     text-align: center;
+    border-bottom: 5px solid #00FF00; /* Neon border */
 }
 
 /* Section styling */
 section {
     padding: 2em;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    background-color: #333; /* Dark gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 255, 0, 0.2); /* Neon green shadow */
+    margin-bottom: 2em;
 }
 
+/* Headings */
 h2 {
     margin-bottom: 0.5em;
-    color: #4CAF50;
+    color: #00FF00; /* Neon green */
 }
 
 /* Bio section styling */
@@ -39,42 +45,66 @@ h2 {
     border-radius: 50%;
     display: block;
     margin: 1em auto;
+    border: 4px solid #00FF00; /* Neon border around image */
 }
 
-/* Portfolio section */
+/* Portfolio grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
+}
+
 .portfolio-item {
-    margin-bottom: 1.5em;
+    border: 2px solid #00FF00; /* Neon green border */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Hover glow effect */
 }
 
 .portfolio-item img {
     width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: auto;
-    border: 2px solid #ddd;
+    border-bottom: 2px solid #00FF00; /* Neon border at the bottom */
 }
 
 /* Social media links */
-#social-media a {
-    display: inline-block;
-    margin: 0.5em;
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-links a {
     padding: 0.5em 1em;
     color: #fff;
-    background-color: #333;
+    background-color: #00FF00; /* Neon green */
     border-radius: 5px;
     text-decoration: none;
 }
 
-#social-media a:hover {
-    background-color: #555;
+.social-links a:hover {
+    background-color: #0bff0b; /* Lighter green on hover */
 }
 
 /* Contact section */
 #contact a {
-    color: #4CAF50;
+    color: #00FF00;
     text-decoration: none;
 }
 
 #contact a:hover {
     text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #000; /* Black background for footer */
+    border-top: 5px solid #00FF00; /* Neon border */
 }
