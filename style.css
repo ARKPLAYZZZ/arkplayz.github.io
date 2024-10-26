@@ -32,6 +32,7 @@ header {
     padding: 2em 0;
     text-align: center;
     border-bottom: 5px solid #8e44ad; /* Darker violet border */
+    color: #222; /* Darker text color */
 }
 
 /* Section styling */
@@ -116,8 +117,7 @@ h2 {
 }
 
 .playlist-container {
-    display: flex;
-    justify-content: flex-start; /* Align to the left */
+    margin-left: 20px; /* Adjust the margin as needed */
 }
 
 #spotify-playlist iframe {
