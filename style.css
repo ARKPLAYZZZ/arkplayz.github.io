@@ -148,4 +148,8 @@ h2 {
         display: block;
         overflow-x: auto;
     }
+    .social-links {
+        flex-direction: column; /* Stack social links vertically */
+        align-items: center;
+    }
 }
