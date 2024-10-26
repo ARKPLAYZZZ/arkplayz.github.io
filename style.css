@@ -145,6 +145,7 @@ h2 {
     }
 
     .portfolio-grid {
-        grid-template-columns: 1fr;
+        display: block;
+        overflow-x: auto;
     }
 }
