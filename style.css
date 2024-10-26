@@ -121,8 +121,8 @@ h2 {
 }
 
 .playlist-container {
-    display: flex;
-    justify-content: flex-start; /* Align to the left */
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
 }
 
 #spotify-playlist iframe {
