@@ -5,13 +5,17 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Bona Nova SC';
+    src: url('fonts/BonaNovaSC-Regular.ttf') format('truetype'); /* Replace with your font file path */
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Bona Nova SC', sans-serif;
     color: #333; /* Dark text for better readability */
     background-color: #f4f4f4; /* Light background for contrast */
     line-height: 1.6;
     overflow-y: auto; /* Enable vertical scrolling */
-}
 
 /* Video Background */
 #video-background {
