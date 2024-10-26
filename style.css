@@ -103,3 +103,20 @@ h2 {
 .social-links a:hover {
     background-color: #8e44ad; /* Darker violet on hover */
 }
+
+/* Spotify Playlist Section */
+#spotify-playlist {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#spotify-playlist iframe {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
