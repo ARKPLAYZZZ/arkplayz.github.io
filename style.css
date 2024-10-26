@@ -7,18 +7,18 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #1a1a1a; /* Dark background */
+    color: #333; /* Dark text for better readability */
+    background-color: #f4f4f4; /* Light background for contrast */
     line-height: 1.6;
 }
 
 /* Header styles */
 header {
-    background-color: #2e0c45; /* Dark violet */
-    color: #e6e600; /* Bright yellow for contrast */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text */
     padding: 2em 0;
     text-align: center;
-    border-bottom: 5px solid #9b59b6; /* Lighter violet border */
+    border-bottom: 5px solid #9b59b6; /* Violet border */
 }
 
 /* Section styling */
@@ -26,16 +26,17 @@ section {
     padding: 2em;
     max-width: 900px;
     margin: auto;
-    background-color: #4b2e6d; /* Medium violet background */
+    background-color: #fff; /* White background for sections */
+    border: 2px solid #9b59b6; /* Violet border */
     border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(155, 89, 182, 0.5); /* Violet shadow */
+    box-shadow: 0 2px 15px rgba(155, 89, 182, 0.2); /* Light shadow */
     margin-bottom: 2em;
 }
 
 /* Headings */
 h2 {
     margin-bottom: 0.5em;
-    color: #e6e600; /* Bright yellow */
+    color: #333; /* Dark text */
 }
 
 /* Bio section styling */
@@ -45,7 +46,7 @@ h2 {
     border-radius: 50%;
     display: block;
     margin: 1em auto;
-    border: 4px solid #e6e600; /* Bright yellow border */
+    border: 4px solid #9b59b6; /* Violet border */
 }
 
 /* Portfolio grid */
@@ -56,7 +57,7 @@ h2 {
 }
 
 .portfolio-item {
-    border: 2px solid #9b59b6; /* Lighter violet border */
+    border: 2px solid #9b59b6; /* Violet border */
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s;
@@ -64,12 +65,12 @@ h2 {
 
 .portfolio-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(155, 89, 182, 0.8); /* Hover glow effect */
+    box-shadow: 0 0 15px rgba(155, 89, 182, 0.5); /* Violet shadow on hover */
 }
 
 .portfolio-item img {
     width: 100%;
-    border-bottom: 2px solid #e6e600; /* Bright yellow border at the bottom */
+    border-bottom: 2px solid #9b59b6; /* Violet border at the bottom */
 }
 
 /* Social media links */
@@ -82,29 +83,10 @@ h2 {
 .social-links a {
     padding: 0.5em 1em;
     color: #fff;
-    background-color: #9b59b6; /* Lighter violet */
+    background-color: #9b59b6; /* Violet background */
     border-radius: 5px;
     text-decoration: none;
 }
 
 .social-links a:hover {
-    background-color: #8e44ad; /* Darker violet on hover */
-}
-
-/* Contact section */
-#contact a {
-    color: #e6e600;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #2e0c45; /* Dark violet */
-    border-top: 5px solid #9b59b6; /* Lighter violet border */
-}
+    background-color: #8e44ad; /* Darker violet on hover 
