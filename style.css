@@ -10,11 +10,22 @@ body {
     color: #333; /* Dark text for better readability */
     background-color: #f4f4f4; /* Light background for contrast */
     line-height: 1.6;
+    overflow: hidden; /* Hide scrollbars to ensure full-screen video */
+}
+
+/* Video Background */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure content overlays the video */
 }
 
 /* Header styles */
 header {
-    background-color: #fff; /* White background */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
     color: #333; /* Dark text */
     padding: 2em 0;
     text-align: center;
@@ -89,4 +100,5 @@ h2 {
 }
 
 .social-links a:hover {
-    background-color: #8e44ad; /* Darker violet on hover 
+    background-color: #8e44ad; /* Darker violet on hover */
+}
