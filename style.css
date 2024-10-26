@@ -36,7 +36,7 @@ header {
     padding: 2em 0;
     text-align: center;
     border-bottom: 5px solid #8e44ad; /* Darker violet border */
-    color: #222; /* Darker text color */
+    color: #fff; /* White text color */
 }
 
 /* Section styling */
