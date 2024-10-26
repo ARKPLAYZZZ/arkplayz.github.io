@@ -114,12 +114,13 @@ h2 {
     margin-bottom: 2em;
 }
 
+.playlist-container {
+    /* Remove centering */
+    /* margin: 0 auto; */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
 #spotify-playlist iframe {
     width: 300px;
     height: 200px;
-}
-
-/* Adjust Spotify Playlist Alignment */
-.playlist-container {
-  margin-left: 20px; /* Adjust the margin as needed */
 }
